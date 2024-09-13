@@ -15,16 +15,19 @@
             font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
             margin:0 ;
         }
+        /*
         .container{
             background-color: #f3f1f7;
             width: 100%;
             height: auto;
             
         }
+            */
+
         .nav-header{
             display: flex;
             margin: auto;
-            width: 80%;
+            width:100%;
             background-color: #fff;
             font-size: 17px;
             border-bottom: 1px solid #ebe7f1;
@@ -78,7 +81,7 @@
         }
         /*------------------------------------------the content------------------------------------------*/
         .content{
-            width: 80%;
+            width: 100%;
             height: auto;
             margin: auto;
             background-color: #fff;
@@ -148,6 +151,7 @@
         position: relative;
         width: 100%;
         height: 100vh; /* Full height of the viewport */
+        margin-bottom: 250px;
         
       }
       .yellow-div{
@@ -218,12 +222,13 @@
         height: 55vw;
         margin: auto;
         background-color:white;
-        margin-top: 250px;
+        margin-top: 450px;
+        margin-bottom: 450px;
     }
     .green-div{
         position: absolute;
         width: 60%;
-        height: 55vw; 
+        height: 75vw; 
         background-color:  #b6ffc0;
         display: flex;
         flex-direction: column;
@@ -259,7 +264,7 @@
         background-size: contain;
         position: absolute;
         margin-left: 800px;
-        margin-top: 200px;
+        margin-top: 300px;
 
     }
     /*------------------------------------------section 5------------------------------------------*/
@@ -276,6 +281,7 @@
     .section5 img{
         width: 80%;
     }
+
     /*------------------------------------------section 6------------------------------------------*/
     .section6{
         position: relative;
@@ -284,6 +290,7 @@
         margin: auto;
         padding-top: 10px;
         margin-top: 150px;
+        margin-bottom: 300px;
     }
     .purple-div{
         position: absolute;
@@ -323,6 +330,7 @@
         height: 700px;
         margin: auto;
         background-color: #fbffa7;
+        margin-top: 150px;
         margin-bottom: 150px;
     }
     .workshop-img{
@@ -369,25 +377,25 @@
     }
     .main-footer{
         margin: auto;
-        width: 80%;
+        width: 100%;
         height: 40vw;
-        
         margin-top: 100px;
-        
+       
+       
     }
     .logo{
         width: 20%;
         padding: 30px;
+        margin-left: 100px;
        
     }
     /*------------------------------------------the content of the footer------------------------------------------*/
     .content-footer{
         display:flex;
         flex-wrap: wrap;
-        justify-content: left;
-        align-content: space-evenly;
-        width: 100%;
-        height: 600px;
+        width:100%;
+        height: 700px;
+        padding: 100px;
         
     }
     .content-section{
@@ -395,15 +403,14 @@
         line-height: 2.0;
         margin-top: 50px;
         text-align: left;
-        margin-right: 60px;
+        margin-right: 80px;
         display: inline-block;
-       
     }
-    .content-section h3{
+    .content-section h3, p{
         margin-left: 40px;
-        
-       
     }
+   
+
     .content-section a{
         text-decoration: none;
         color: #000000;
@@ -413,14 +420,15 @@
         list-style: none;
        
     }
+
     input{
         margin-left: 40px;
-        padding:15px;
+        padding: 16px;
         text-transform: capitalize;
-        width: 300px;
+        width: 330px;
         background-color: rgb(243, 239, 239);
         border: none;
-        
+       
     }
    
     .btn{
@@ -428,9 +436,10 @@
         background-color: #0000ff;
         padding: 15px;
         width: 25%;
-        font-size: 14px;
+        font-size: 15px;
         font-weight: 600;
     }
+
     .selection-div{
         display: flex;
         margin-left: 40px;
@@ -470,6 +479,7 @@
         width: 500px;
         height: 50px;
         float: left;
+        margin-left: 130px;
         
     }
     .footer-links a{
@@ -488,6 +498,7 @@
         align-items: center;
         background-color: #fff;
         width: 200px;
+        margin-right: 130px;
         
     }
     .logo-footer  img{
@@ -713,10 +724,10 @@
                     </div>
                     <div class="content-section">
                         <h3>Sign up to our newsletter</h3>
-                        <ul>
-                            <li><a href="">Enter your email address to stay up to date with the latest</a><i class='bx bx-chevron-right' style='color:#000000; vertical-align: middle;'></i></li>
-                            <li><a href="">offers, tutorials, downloads, surveys and more.</a><i class='bx bx-chevron-right' style='color:#000000; vertical-align: middle;'></i></li>
-                        </ul>
+                        
+                           <p> Enter your email address to stay up to date with the latest offers, <br>
+                             tutorials, downloads, surveys and more.</p>
+                        
                         <form action="">
                             <input type="email" placeholder="email address"><button class="btn">Sign up</button>
                         
